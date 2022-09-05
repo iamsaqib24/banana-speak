@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #fde047;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.first-container {
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+textarea {
+    height: 20vh;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 50%;
+}
+
+.btn-translate {
+    display: block;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1rem 1rem;
+}
+
+.output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
